@@ -1,0 +1,23 @@
+title: Climate Progress Dashboard
+url: ""
+twitter_username: plausiblelabs
+github_username:  plausiblelabs
+email:
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
+theme: minima
+
+minima:
+  date_format: "%B %-d, %Y"
+
+paginate: 1
+paginate_path: "/page/:num/"
+
+exclude:
+  - src/
